@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ----------main style------------ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- ------------Google Fonts-------------- -->
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <!-- --------------Icon pack font-awesome----------- -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>contact form</title>
+</head>
+
+<body>
+     <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/logo.png" style="height:60px;" alt="logo-image">
+                    </div>
+                    <nav>
+                        <ul id="menu-items">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="produt.html">Products</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="register.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" alt="cart" width="30px" height="30px" class="cart-img">
+                    <img src="images/menu.png" alt="menu" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+                </div>
+                </div>
+                </div>
+                
+
+<link href="contact-form.css" rel="stylesheet">
+
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
